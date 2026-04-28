@@ -1,5 +1,5 @@
-import praktikum_2 from "./praktikum_2";
+import SearchPage from './SearchPage';
 
 export default function Index() {
-  return <praktikum_2 />;
+  return <SearchPage />;
 }

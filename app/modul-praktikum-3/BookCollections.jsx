@@ -2,8 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import AntDesign from "@expo/vector-icons/AntDesign";
-import { color_list, styles } from "../styles/StyleApps";
-
+import { color_list, styles } from '../../styles/StyleApps';
 export default function BookCollections({ books }) {
   const sortedBooks = [...books].sort((a, b) => b.id - a.id);
 
@@ -93,3 +92,4 @@ const BookItemContent = ({ book }) => {
     </View>
   );
 };
+
