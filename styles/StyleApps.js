@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     backgroundColor: color_list.orange,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "center" ,
   },
 
   book_card_title: {
