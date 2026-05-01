@@ -1,5 +1,5 @@
-import UserList from "../components/UserList";
+import FormPage from "./form";
 
 export default function Home() {
-  return <UserList />;
+  return <FormPage />;
 }
